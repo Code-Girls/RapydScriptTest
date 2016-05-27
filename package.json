@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rapydscript": "rapydscript index.py --stats --lint -o index.js"
+    "rapydscript": "rapydscript index.py -o index.js && node index.js && rm index.js"
   },
   "repository": {
     "type": "git",
